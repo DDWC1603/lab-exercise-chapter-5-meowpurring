@@ -1,31 +1,27 @@
+//finish up this program.thanks.
+
 #include <iostream>
+#include <iomanip>
+
 using namespace std;
 
-void changesA(int a);
-int min(int x,int y=10);
-
-int main()
-
+void ombakOmbak(int repeat=3,int height=5,int up=2,int down=2)
 {
-	int x,y;
-	cin>>min(x,y);
-
-	changesA(1);
-	return 0;
+	while(repeat >0)
+	{
+		for(/*up*/)
+		cout<<setw(height)<<right<<"+"<<endl;
+		for(/*down*/)
+		cout<<"+"<<endl;
+		repeat --;
+	}
 }
 
-int min(int x,int y)
+
+
+void OmbakKeluar()
 {
 
-	if(x<y)
-		return x;
-	else 
-		return y;
-}
-
-void changesA(int a)
-{
-	++a;
-	cout<<"ni dia :"<<a;
-
+	cout<<"\nwaveDemo\n";
+	petakPelik();
 }
